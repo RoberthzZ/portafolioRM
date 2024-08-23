@@ -1,0 +1,101 @@
+/* Color al cuerpo de la pagina */
+body {
+    background-color: #d7e8d5;
+}
+
+/* definir posicion de h1, p & imagen */
+.contenedor {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* color del h1 */
+.contenedor h1 {
+    color: #4a3a47;
+}
+
+/* letras y margenes p */
+.contenedor p {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* posicion y esquinas de la imagen */
+.imagen {
+    width: 40%;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+/* posicion del formulario */
+#form {
+    margin-top: 100px;
+    padding: auto;
+}
+
+/* posicion del boton de mostrar */
+.btnForm {
+    text-align: center;
+    margin-top: 10px;
+    scroll-margin-top: 130px;
+}
+
+/* posicion de la galeria */
+#galeria {
+    margin-top: 10px;
+    padding: 30px;
+    display: none;
+}
+
+/* lineas divisorias SOBRE MI */
+.linea1{
+    margin-top: 60px;
+}
+
+/* lineas divisorias VER PROYECTOS*/
+.linea2{
+    margin-top: 60px;
+}
+
+/* lineas divisora MIS HABILIDADES */
+.linea3 {
+    margin-top: 60px;
+}
+
+/* lineas divisora FORMULARIO */
+.linea4{
+    margin-top: 60px;
+}
+
+/* efecto transparente al navbar */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* boton del formulario */
+.btn {
+    margin-top: 50px;
+}
+
+/* titulo formulario de contacto */
+.text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* mediaQuery */
+@media (min-width: 320px) and (max-width: 991px) {
+    .navbar {
+        background-color: #d7e8d5;
+    }
+}
+
+/* boton de HABILIDADES */
+#caja1{
+    text-align: center;
+    color: #e8ed76;
+    scroll-margin-top: 120px;
+}
